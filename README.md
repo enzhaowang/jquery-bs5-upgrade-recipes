@@ -7,6 +7,8 @@ PLM-5673 POC：评估能否用 jscodeshift recipe 自动完成 Grails/GSP 项目
 
 Inspinia 2.4 → 4 不在自动化范围内，由人工处理。
 
+Ticket 描述和当前进度见 [docs/PLM-5673.md](docs/PLM-5673.md)。
+
 ## 快速开始
 
 需要 Node 18 或更高版本。
@@ -89,6 +91,7 @@ node bin/run.js --root /path/to/project --config my-targets.json --apply
 ```text
 bin/run.js      命令行入口、白名单、写文件和报告
 config/         目标文件模板
+docs/           Ticket 描述和进度
 gsp/            GSP 分段、占位符和转换流程
 lib/            解析器、AST 工具和接收者判断
 rules/          Bootstrap 5 映射和 HTML 改写，唯一规则来源
