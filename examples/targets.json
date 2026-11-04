@@ -1,0 +1,10 @@
+{
+  "js": {
+    "include": ["grails-app/assets/javascripts/business/**/*.js"],
+    "exclude": ["**/*.min.js"]
+  },
+  "gsp": {
+    "include": ["grails-app/views/**/*.gsp"],
+    "exclude": ["**/layouts/**"]
+  }
+}

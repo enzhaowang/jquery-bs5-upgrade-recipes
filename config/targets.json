@@ -1,0 +1,10 @@
+{
+  "js": {
+    "include": ["grails-app/assets/javascripts/CHANGE-ME-business-dir/**/*.js"],
+    "exclude": ["**/*.min.js", "**/inspinia*", "**/plugins/**", "**/vendor/**"]
+  },
+  "gsp": {
+    "include": ["grails-app/views/CHANGE-ME-module/**/*.gsp"],
+    "exclude": ["**/layouts/**"]
+  }
+}

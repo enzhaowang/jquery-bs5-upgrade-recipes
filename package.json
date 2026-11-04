@@ -1,0 +1,20 @@
+{
+  "name": "jquery-bs5-upgrade-recipes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PLM-5673 POC: codemods for jQuery 3 and Bootstrap 5 upgrades in Grails/GSP",
+  "bin": {
+    "upgrade-recipes": "bin/run.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.29.12",
+    "fast-glob": "^3.3.3",
+    "jscodeshift": "^17.4.0"
+  }
+}
